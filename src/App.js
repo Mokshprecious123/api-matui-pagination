@@ -1,13 +1,15 @@
 import React from "react";
 import './App.css';
-import ApiIntegrate from "./api";
+// import ApiIntegrate from "./api";
+// import CustomPaginationActionsTable from './moksh'
+import Fin from "./axiostable";
 
 
 function App() {
   return (
     <>
     <div>
-  <ApiIntegrate/>
+  <Fin/>
   </div>
     </>
   );
